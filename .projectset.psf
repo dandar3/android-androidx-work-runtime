@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psf version="2.0">
+<provider id="org.eclipse.team.svn.core.svnnature">
+<project reference="1.0.1,https://github.com/dandar3/android-androidx-work-runtime/tags/2.0.0,androidx-work-runtime,90bb6c8b577c001b12c4e3f5082ba7bc;https://github.com/dandar3/android-androidx-work-runtime;https://github.com/dandar3/android-androidx-work-runtime;branches;tags;trunk;true;df737ea0-ec3d-1915-3c40-ce57b7db7bff;https://github.com/dandar3/android-androidx-work-runtime;;false;&lt;https://github.com:443&gt; GitHub;;0"/>
+</provider>
+</psf>
