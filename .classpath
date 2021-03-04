@@ -4,7 +4,9 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/androidx-lifecycle-extensions"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/androidx-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/androidx-lifecycle-livedata"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/androidx-lifecycle-service"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/androidx-room-runtime"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/google-guava-listenablefuture"/>
 	<classpathentry kind="output" path="bin/classes"/>
