@@ -8,6 +8,8 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/androidx-lifecycle-livedata"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/androidx-lifecycle-service"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/androidx-room-runtime"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/androidx-sqlite"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/androidx-sqlite-framework"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/google-guava-listenablefuture"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
