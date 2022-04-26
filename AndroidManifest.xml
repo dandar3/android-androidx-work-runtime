@@ -17,12 +17,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="androidx.work" 
-    android:versionCode="234"
-    android:versionName="2.3.4">
+    android:versionCode="240"
+    android:versionName="2.4.0">
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="28" />
+        android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -127,6 +127,17 @@
             tools:targetApi="n" >
             <intent-filter>
                 <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP"
+            tools:targetApi="n" >
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
             </intent-filter>
         </receiver>
     </application>
